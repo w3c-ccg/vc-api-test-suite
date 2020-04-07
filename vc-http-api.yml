@@ -1,14 +1,14 @@
 openapi: 3.0.0
-# Added by API Auto Mocking Plugin
-servers:
-  - description: SwaggerHub API Auto Mocking
-    url: https://virtserver.swaggerhub.com/vc-http-api/0.0.0
 info:
-  description: This is an experimental Open API specification for vc-data-model. 
   version: "0.0.0"
   title: VC HTTP API
+  description: This is an Experimental Open API Specification for the [VC Data Model](https://www.w3.org/TR/vc-data-model/). 
   license:
-    name: All documents in this Repository are licensed by contributors under http://www.w3.org/Consortium/Legal/copyright-software.
+    name: W3C Software and Document License
+    url: http://www.w3.org/Consortium/Legal/copyright-software.
+  contact:
+    name: GitHub Source Code
+    url: https://github.com/transmute-industries/vc-http-api
 tags:
   - name: Issuer
     description: APIs for Issuers.
