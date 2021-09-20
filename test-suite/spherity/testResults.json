@@ -826,20 +826,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 1. The Issuer's Issue Credential HTTP API MUST return a 201 HTTP response status code after successful credential issuance.",
             "status": "failed",
@@ -854,20 +854,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 2. The Issuer's Issue Credential HTTP API MUST require \"credential\" in the body of the POST request. The field \"credential\" MUST be conformant to [Verifiable Credentials Data Model 1.0](https://www.w3.org/TR/vc-data-model/).",
             "status": "failed",
@@ -882,20 +882,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 3. The Issuer's Issue Credential HTTP API MUST return a 400 HTTP response status code when the request is rejected.",
             "status": "failed",
@@ -910,20 +910,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 4. The Issuer's Issue Credential HTTP API MUST return a Verifiable Credential with the value of its \"issuer\" or \"issuer.id\" as a URI in the body of the response.",
             "status": "failed",
@@ -938,20 +938,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 5. The Issuer's Issue Credential HTTP API MUST reject if the value of \"options.proofPurpose\" in the body of the POST request is not supported.",
             "status": "failed",
@@ -966,20 +966,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 6. The Issuer's Issue Credential HTTP API MUST reject if the value of \"options.verificationMethod\" in the body of the POST request does not exist.",
             "status": "failed",
@@ -994,20 +994,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 7. The Issuer's Issue Credential HTTP API MUST reject if the value of \"credential\" in the body of the POST request does not contain a context.",
             "status": "failed",
@@ -1022,20 +1022,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 8. The Issuer's Issue Credential HTTP API MUST reject if the value of \"credential\" in the body of the POST request contains a malformed JSON-LD context.",
             "status": "failed",
@@ -1050,20 +1050,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 9. The Issuer's Issue Credential HTTP API MUST support no \"options\" in the body of the POST request.",
             "status": "failed",
@@ -1078,20 +1078,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 10. The Issuer's Issue Credential HTTP API MAY support issuing a credential with a credential status type of RevocationList2020Status",
             "status": "failed",
@@ -1106,20 +1106,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 11. The Issuer's Issue Credential HTTP API MUST return 400 if credential status type not recognized",
             "status": "failed",
@@ -1145,11 +1145,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:20:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:20:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:20:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:20:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 1. The Issuer's Issue Credential HTTP API MUST return a 201 HTTP response status code after successful credential issuance.",
             "status": "failed",
@@ -1175,11 +1175,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:30:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:30:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:30:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:30:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 2. The Issuer's Issue Credential HTTP API MUST require \"credential\" in the body of the POST request. The field \"credential\" MUST be conformant to [Verifiable Credentials Data Model 1.0](https://www.w3.org/TR/vc-data-model/).",
             "status": "failed",
@@ -1216,11 +1216,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:51:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:51:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:51:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:51:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 4. The Issuer's Issue Credential HTTP API MUST return a Verifiable Credential with the value of its \"issuer\" or \"issuer.id\" as a URI in the body of the response.",
             "status": "failed",
@@ -1257,11 +1257,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 404",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 404\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:84:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 404\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:84:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 404\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:84:32)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 400\nReceived: 404\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:84:32)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 6. The Issuer's Issue Credential HTTP API MUST reject if the value of \"options.verificationMethod\" in the body of the POST request does not exist.",
             "status": "failed",
@@ -1309,11 +1309,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:122:30)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:122:30)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:122:30)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:122:30)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 9. The Issuer's Issue Credential HTTP API MUST support no \"options\" in the body of the POST request.",
             "status": "failed",
@@ -1339,11 +1339,11 @@
                 "matcherName": "",
                 "message": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400",
                 "passed": false,
-                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:144:34)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+                "stack": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:144:34)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
               }
             ],
             "failureMessages": [
-              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:144:34)\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
+              "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: 201\nReceived: 400\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/issueCredential.spec.js:144:34)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)"
             ],
             "fullName": "Issue Credential API - Conformance with issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 10. The Issuer's Issue Credential HTTP API MAY support issuing a credential with a credential status type of RevocationList2020Status",
             "status": "failed",
@@ -1369,20 +1369,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue Permanent Resident Card credential, fixture case-1",
             "status": "failed",
@@ -1397,20 +1397,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue COVID-19 Vaccination Certificate credential, fixture case-10",
             "status": "failed",
@@ -1425,20 +1425,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-11",
             "status": "failed",
@@ -1453,20 +1453,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-12",
             "status": "failed",
@@ -1481,20 +1481,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-13",
             "status": "failed",
@@ -1509,20 +1509,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-14",
             "status": "failed",
@@ -1537,20 +1537,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-15",
             "status": "failed",
@@ -1565,20 +1565,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-16",
             "status": "failed",
@@ -1593,20 +1593,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-17",
             "status": "failed",
@@ -1621,20 +1621,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-18",
             "status": "failed",
@@ -1649,20 +1649,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-19",
             "status": "failed",
@@ -1677,20 +1677,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-2",
             "status": "failed",
@@ -1705,20 +1705,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-3",
             "status": "failed",
@@ -1733,20 +1733,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue undefined credential, fixture case-4",
             "status": "failed",
@@ -1761,20 +1761,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue Bill of Lading credential, fixture case-5",
             "status": "failed",
@@ -1789,20 +1789,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue Heavy Sour Dilbit Inspection Report credential, fixture case-6",
             "status": "failed",
@@ -1817,20 +1817,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue Heavy Sour Dilbit credential, fixture case-7",
             "status": "failed",
@@ -1845,20 +1845,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue QP Inbond credential, fixture case-8",
             "status": "failed",
@@ -1873,20 +1873,20 @@
               {
                 "actual": "",
                 "error": {
-                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                  "message": "request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                   "type": "system",
-                  "errno": "CERT_HAS_EXPIRED",
-                  "code": "CERT_HAS_EXPIRED"
+                  "errno": "ERR_TLS_CERT_ALTNAME_INVALID",
+                  "code": "ERR_TLS_CERT_ALTNAME_INVALID"
                 },
                 "expected": "",
                 "matcherName": "",
-                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired",
+                "message": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io",
                 "passed": false,
-                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+                "stack": "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
               }
             ],
             "failureMessages": [
-              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: certificate has expired\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
+              "FetchError: request to https://marketplace-amazon-pre-prod.api.wallet.eu.spherity.io/api/v1/vc-http-api/credentials/issue failed, reason: Hostname/IP does not match certificate's altnames: Host: marketplace-amazon-pre-prod.api.wallet.eu.spherity.io. is not in the cert's altnames: DNS:*.pre.eu.spherity.io, DNS:pre.eu.spherity.io\n    at ClientRequest.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:1461:11)\n    at ClientRequest.emit (events.js:314:20)\n    at TLSSocket.socketErrorListener (_http_client.js:427:9)\n    at TLSSocket.emit (events.js:314:20)\n    at emitErrorNT (internal/streams/destroy.js:92:8)\n    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n    at processTicksAndRejections (internal/process/task_queues.js:84:21)"
             ],
             "fullName": "Issue Credential API - Credential Type Interop With issuer: did:key:z6MkjafApNWaUm4n7WHqYdjDwsjhKbZQi54LwPDb8U8fQAT9 Can issue Certified Mill Test Report credential, fixture case-9",
             "status": "failed",
