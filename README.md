@@ -19,15 +19,15 @@ You may wish to programmatically download the latest test results as JSON.
 - HTML Report: TODO
 
   ```
-  curl -s https://w3c-ccg.github.io/vc-http-api/test-suite/testResults.json | jq
+  curl -s https://w3c-ccg.github.io/vc-http-api-test-suite/test-suite/testResults.json | jq
   ```
 
 #### Test Results for a Specific Implementation
 
-- HTML Report: https://w3c-ccg.github.io/vc-http-api/test-suite/IMPLEMENTATION_NAME
+- HTML Report: https://w3c-ccg.github.io/vc-http-api-test-suite/test-suite/IMPLEMENTATION_NAME
 
   ```
-  curl -s https://w3c-ccg.github.io/vc-http-api/test-suite/IMPLEMENTATION_NAME/testResults.json | jq
+  curl -s https://w3c-ccg.github.io/vc-http-api-test-suite/test-suite/IMPLEMENTATION_NAME/testResults.json | jq
   ```
 
 ### Contributing
