@@ -1,22 +1,22 @@
 {
     "@context": ["https://www.w3.org/2018/credentials/v1"],
     "type": ["VerifiablePresentation"],
-    "holder": "did:key:z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X",
+    "holder": "did:key:z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4",
     "verifiableCredential": [
       {
         "@context": [
           "https://www.w3.org/2018/credentials/v1",
           "https://www.w3.org/2018/credentials/examples/v1"
         ],
-        "id": "http://example.gov/credentials/3732#6c02882c-711f-4069-8e5d-13ce9cbedba8#61ab35c4-a652-4868-9460-6f6509d0f61e#c5aa4b4f-877a-41ba-b304-e03a572477ce",
+        "id": "http://example.gov/credentials/3732#4575be59-8537-40a5-990a-b9c689b0951a",
         "type": [
           "VerifiableCredential",
           "UniversityDegreeCredential"
         ],
-        "issuer": "did:key:z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X",
-        "issuanceDate": "2020-03-10T04:24:12.164Z",
+        "issuer": "did:key:z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4",
+        "issuanceDate": "2021-09-14T18:54:13.510Z",
         "credentialSubject": {
-          "id": "did:key:z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X",
+          "id": "did:key:z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4",
           "degree": {
             "type": "BachelorDegree",
             "name": "Bachelor of Science and Arts"
@@ -24,21 +24,21 @@
         },
         "proof": {
           "type": "Ed25519Signature2018",
-          "created": "2020-04-23T17:05:11Z",
-          "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..L77SpdckEEf4HYwV1reezXOMWEE8kX8iKxIr-NdgO5NI1TDunY5Q4lraGLZ3sGsSYTHHjaEOooXC3L8EtjBiAQ",
+          "created": "2021-09-14T18:55:00Z",
+          "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..YgGnEkHBhhtLOuZ_buxA4xQSOo4GI6MkvUGsWGVSOWwoe3e1gaD2TB5kpnOGluDJ3d1Xp2raVhy9pH0D4kPwCg",
           "proofPurpose": "assertionMethod",
-          "verificationMethod": "did:key:z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X#z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X"
+          "verificationMethod": "did:key:z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4#z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4"
         }
       }
     ],
     "proof": {
       "type": "Ed25519Signature2018",
-      "created": "2020-04-23T17:05:15Z",
-      "challenge": "99612b24-63d9-11ea-b99f-4f66f3e4f81a",
+      "created": "2021-09-14T18:55:11Z",
+      "challenge": "b0e21852-cce0-4117-b0b6-72b56abfb39e",
       "domain": "issuer.example.com",
-      "jws": "eyJhbGciOiJFZERTQSIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XYdhxOTyELrl23onupVkviA0ABvqOsaDG66nt7im_WyhQLWB6DZP8tZPBUOhA8J5iyhcLuqGTcIsqKxjwbKhCg",
+      "jws": "eyJhbGciOiJFZERTQSIsImNyaXQiOlsiYjY0Il0sImI2NCI6ZmFsc2V9..VRrh2hgTMFFnfYJYmqDXIqfEptqTAgnfABCe_osf6oxuvLCrgBQzVowfo6tRYoxFsfhYrxUwPVecuy82fuoGAA",
       "proofPurpose": "authentication",
-      "verificationMethod": "did:key:z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X#z6MktT2KTXK3So7Eskmvn96QccaVCGeLjFtpuGrTAY24Ls9X"
+      "verificationMethod": "did:key:z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4#z6MkwETtT2mP3L74iFCVSXeoVfTXBtgCN4HDuYjbQxxPcdm4"
     }
 }
   
