@@ -1,12 +1,12 @@
 {
   "testResults": {
-    "numFailedTests": 2,
-    "numPassedTests": 104,
+    "numFailedTests": 1,
+    "numPassedTests": 105,
     "numTotalTests": 106,
     "testResults": [
       {
-        "numFailingTests": 1,
-        "numPassingTests": 72,
+        "numFailingTests": 0,
+        "numPassingTests": 73,
         "testResults": [
           {
             "ancestorTitles": [
@@ -46,25 +46,10 @@
               "Verify Credential API - Conformance",
               "3. The Verifier's Verify Credential HTTP API MUST fail to verify a Verifiable Credential with a mutated \"proofPurpose\" in the proof."
             ],
-            "failureDetails": [
-              {
-                "actual": "",
-                "error": {
-                  "message": "invalid json response body at https://vc.mesur.io/next/credentials/verify reason: Unexpected end of JSON input",
-                  "type": "invalid-json"
-                },
-                "expected": "",
-                "matcherName": "",
-                "message": "FetchError: invalid json response body at https://vc.mesur.io/next/credentials/verify reason: Unexpected end of JSON input",
-                "passed": false,
-                "stack": "FetchError: invalid json response body at https://vc.mesur.io/next/credentials/verify reason: Unexpected end of JSON input\n    at /home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:272:32\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at Object.postJson (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/services/httpClient.js:40:19)\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/verifyCredential.spec.js:67:29)"
-              }
-            ],
-            "failureMessages": [
-              "FetchError: invalid json response body at https://vc.mesur.io/next/credentials/verify reason: Unexpected end of JSON input\n    at /home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/node_modules/node-fetch/lib/index.js:272:32\n    at runMicrotasks (<anonymous>)\n    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n    at Object.postJson (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/services/httpClient.js:40:19)\n    at Object.<anonymous> (/home/runner/work/vc-http-api-test-suite/vc-http-api-test-suite/packages/vc-http-api-test-server/__tests__/verifyCredential.spec.js:67:29)"
-            ],
+            "failureDetails": [],
+            "failureMessages": [],
             "fullName": "Verify Credential API - Conformance 3. The Verifier's Verify Credential HTTP API MUST fail to verify a Verifiable Credential with a mutated \"proofPurpose\" in the proof. should fail ",
-            "status": "failed",
+            "status": "passed",
             "title": "should fail "
           },
           {
