@@ -1,12 +1,12 @@
-## VC HTTP API Test Suite
+## VC API Test Suite
 
-[![Implementation Interoperability Report](https://github.com/w3c-ccg/vc-http-api-test-suite/actions/workflows/cd.yml/badge.svg)](https://github.com/w3c-ccg/vc-http-api-test-suite/actions/workflows/cd.yml)
+[![Implementation Interoperability Report](https://github.com/w3c-ccg/vc-api-test-suite/actions/workflows/cd.yml/badge.svg)](https://github.com/w3c-ccg/vc-api-test-suite/actions/workflows/cd.yml)
 
-The VC HTTP API test suite repository contains tests for a standard API specification for constructing and verifying objects which conform to the [Verifiable Credential Data Model](https://www.w3.org/TR/vc-data-model/) specification, along with documentation, integration and compatability tests, and related assets for the test and integration process.
+The VC API test suite repository contains tests for a standard API specification for constructing and verifying objects which conform to the [Verifiable Credential Data Model](https://www.w3.org/TR/vc-data-model/) specification, along with documentation, integration and compatability tests, and related assets for the test and integration process.
 
 ### Structure
 
-The vc-http-api test suite repository is structured like so:
+The vc-api test suite repository is structured like so:
 
 - [packages](./packages/) which contains test suites and related utilities for integration testing, test suite results, and related assets.
 
@@ -24,10 +24,10 @@ You may wish to programmatically download the latest test results as JSON.
 
 #### Test Results for a Specific Implementation
 
-- HTML Report: https://w3c-ccg.github.io/vc-http-api-test-suite/test-suite/IMPLEMENTATION_NAME
+- HTML Report: https://w3c-ccg.github.io/vc-api-test-suite/test-suite/IMPLEMENTATION_NAME
 
   ```
-  curl -s https://w3c-ccg.github.io/vc-http-api-test-suite/test-suite/IMPLEMENTATION_NAME/testResults.json | jq
+  curl -s https://w3c-ccg.github.io/vc-api-test-suite/test-suite/IMPLEMENTATION_NAME/testResults.json | jq
   ```
 
 ### Contributing
