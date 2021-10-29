@@ -39,7 +39,6 @@ describe('Verify Presentation API', () => {
               options: {
                 challenge: vp.proof.challenge,
                 domain: vp.proof.domain,
-                checks: ['proof'],
               },
             };
             const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -69,7 +68,6 @@ describe('Verify Presentation API', () => {
               options: {
                 challenge: vp.proof.challenge,
                 domain: vp.proof.domain,
-                checks: ['proof'],
               },
             };
             const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -89,7 +87,6 @@ describe('Verify Presentation API', () => {
           options: {
             challenge: verifiablePresentations[0].proof.challenge,
             domain: verifiablePresentations[0].proof.domain,
-            checks: ['proof'],
           },
         };
         const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -106,7 +103,6 @@ describe('Verify Presentation API', () => {
           options: {
             challenge: verifiablePresentations[0].proof.challenge,
             domain: verifiablePresentations[0].proof.domain,
-            checks: ['proof'],
           },
         };
         const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -127,7 +123,6 @@ describe('Verify Presentation API', () => {
           options: {
             challenge: verifiablePresentations[0].proof.challenge,
             domain: verifiablePresentations[0].proof.domain,
-            checks: ['proof'],
           },
         };
         const res = await httpClient.postJson(verifierEndpoint, body, {});

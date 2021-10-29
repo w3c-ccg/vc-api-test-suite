@@ -21,7 +21,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -32,7 +31,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.proof.jws += 'bar';
@@ -46,7 +44,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 delete body.verifiableCredential.proof.created;
@@ -60,7 +57,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: {...verifiableCredentials[0].data},
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.proof.proofPurpose = 'bar';
@@ -74,7 +70,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.newProp = 'foo';
@@ -88,7 +83,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 delete body.verifiableCredential.issuer;
@@ -102,7 +96,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.issuer = 'bar';
@@ -116,7 +109,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.proof.newProp = 'bar';
@@ -130,7 +122,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 delete body.verifiableCredential.proof.proofPurpose;
@@ -144,7 +135,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 body.verifiableCredential.proof.created += 'bar';
@@ -158,7 +148,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: verifiableCredentials[0].data,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -173,7 +162,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                     verifiableCredential: null,
                     options: {
-                        checks: ['proof'],
                     },
                 };
                 const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -191,7 +179,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                 const body = {
                 verifiableCredential: vc,
                 options: {
-                    checks: ['proof'],
                 },
                 };
                 const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -218,7 +205,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                                         const body = {
                                             verifiableCredential,
                                             options: {
-                                                checks: ['proof', 'credentialStatus'],
                                             },
                                         };
                                         const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -231,7 +217,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                                         const body = {
                                             verifiableCredential,
                                             options: {
-                                                checks: ['proof', 'credentialStatus'],
                                             },
                                         };
                                         const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -261,7 +246,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                     const body = {
                     verifiableCredential: utilities.cloneObj(verifiableCredential.data),
                     options: {
-                        checks: ['proof'],
                     },
                     };
                     const res = await httpClient.postJson(verifierEndpoint, body, {});
@@ -272,7 +256,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                     const body = {
                     verifiableCredential: utilities.cloneObj(verifiableCredential.data),
                     options: {
-                        checks: ['proof'],
                     },
                     };
                     if (body.verifiableCredential.proof.jws) {
@@ -288,7 +271,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                     const body = {
                     verifiableCredential: utilities.cloneObj(verifiableCredential.data),
                     options: {
-                        checks: ['proof'],
                     },
                     };
                     body.verifiableCredential.badPropTest = "bad";
@@ -299,7 +281,6 @@ if (suiteConfig.verifyCredentialConfiguration) {
                     const body = {
                     verifiableCredential: utilities.cloneObj(verifiableCredential.data),
                     options: {
-                        checks: ['proof'],
                     },
                     };
                     // Assumes all interop test fixtures have a credential.credentialSubject property
