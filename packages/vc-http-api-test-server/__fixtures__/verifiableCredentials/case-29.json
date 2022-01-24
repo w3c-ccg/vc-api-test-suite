@@ -19,7 +19,7 @@
     "modeOfTransport": "Truck",
     "portOfEntry": {
       "type": "ShippingStop",
-      "shippingStopAddress": {
+      "https://schema.org/PostalAddress": {
         "type": "PostalAddress",
         "organizationName": "Donnelly, Schulist and Schneider",
         "streetAddress": "17034 Russ Mission",
@@ -28,7 +28,7 @@
         "postalCode": "13098-9352",
         "addressCountry": "Gibraltar"
       },
-      "carrier": {
+      "https://schema.org/Organizationn": {
         "type": "Organization",
         "name": "Koch and Sons",
         "description": "Multi-layered global productivity",

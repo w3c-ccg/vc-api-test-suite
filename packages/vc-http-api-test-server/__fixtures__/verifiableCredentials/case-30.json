@@ -20,7 +20,7 @@
     "finalModeOfTransport": "Air",
     "finalPortOfEntry": {
       "type": "ShippingStop",
-      "shippingStopAddress": {
+      "https://schema.org/PostalAddress": {
         "type": "PostalAddress",
         "organizationName": "Fritsch and Sons",
         "streetAddress": "9588 Lizzie Wall",
@@ -29,7 +29,7 @@
         "postalCode": "50233",
         "addressCountry": "Colombia"
       },
-      "carrier": {
+      "https://schema.org/Organizationn": {
         "type": "Organization",
         "name": "Wunsch, Nitzsche and Schaden",
         "description": "Progressive optimal migration",
