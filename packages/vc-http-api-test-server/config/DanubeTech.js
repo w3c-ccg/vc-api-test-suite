@@ -2,11 +2,11 @@ module.exports = {
     name: "Danube Tech",
     issueCredentialConfiguration: [
         {
-            id: "did:key:z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB",
+            id: "did:key:z6MksvTdeczd92YQ5W2V2gL9kXdRvD2AEiyJPoWieP95HUDo",
             endpoint: "https://uniissuer.io/1.0/credentials/issue",
             proofType: "Ed25519Signature2018",
             options: {
-                assertionMethod: "did:key:z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB#z6MkvfambyLsugwe8DCHeUGVJbYZyKne59RDHx2dqmXRG6nB"
+                assertionMethod: "did:key:z6MksvTdeczd92YQ5W2V2gL9kXdRvD2AEiyJPoWieP95HUDo#z6MksvTdeczd92YQ5W2V2gL9kXdRvD2AEiyJPoWieP95HUDo"
             },
             credentialStatusesSupported: ['RevocationList2020Status']
         },
